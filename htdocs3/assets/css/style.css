@@ -1,0 +1,115 @@
+/* GERAL */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', 'Arial';
+}
+/* CABEÇALHO DO SITE */
+header{
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+}
+.header{
+    max-width:1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.agendar button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F0B35B;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    
+
+}
+/* INFORMAÇÕES DO SITE */
+.principal{
+  background-image: url('../img/fundo.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+    padding: 50px 0; /* Espaçamento interno superior e inferior */
+    height: 100vh; /* Define a altura da seção como a altura da janela do navegador */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.principal h1{
+    color: #FFF;
+}
+.principal h2{
+    color: #FFF;
+}
+.principal button{
+    
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F0B35B;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.segundo{
+    background-color: #0D121E;
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+
+.segundo h1{
+    color: #FFF;
+}
+.segundo h2{
+    color: #FFF;
+}
+.barbeiros{
+    background-color: #FFF;
+}
+.mais_avaliados{
+    background-color: #636A86;
+}
+.unidades{
+    background-color: #FFF;
+}
+.logoimg img{
+    width:80px;
+    height: 80px;
+}
+
+.menu li{
+    list-style:none;
+    padding: 10px;
+}
+.menu ul{
+    display: flex;
+}
+.menu li a{
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left:5px ;
+    padding-right: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #000;
+}
+.menu li a:hover,
+.menu .active a{
+    border-bottom:5px solid #B28756;
+}
